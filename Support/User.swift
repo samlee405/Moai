@@ -24,6 +24,8 @@ class User {
     
     var supportNetwork = [User]()
     
+    var warnings = [String]()
+    
     init(type: userType, name: String, username: String, description: String?) {
         self.type = type
         self.name = name

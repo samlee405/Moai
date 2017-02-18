@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BD94AD931E58F05F00AFCB99 /* Intro.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BD94AD921E58F05F00AFCB99 /* Intro.storyboard */; };
+		BD94AD951E58F49200AFCB99 /* IntroCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94AD941E58F49200AFCB99 /* IntroCollectionCell.swift */; };
+		BD94AD971E58F55A00AFCB99 /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94AD961E58F55A00AFCB99 /* IntroViewController.swift */; };
+		BD94AD991E58FDBE00AFCB99 /* AddItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD94AD981E58FDBE00AFCB99 /* AddItemView.swift */; };
 		EFF7E9311E58C60100880757 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E9301E58C60100880757 /* AppDelegate.swift */; };
 		EFF7E9331E58C60100880757 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFF7E9321E58C60100880757 /* MainViewController.swift */; };
 		EFF7E9361E58C60100880757 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFF7E9341E58C60100880757 /* Main.storyboard */; };
@@ -19,6 +23,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BD94AD921E58F05F00AFCB99 /* Intro.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Intro.storyboard; path = ../Intro.storyboard; sourceTree = "<group>"; };
+		BD94AD941E58F49200AFCB99 /* IntroCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroCollectionCell.swift; sourceTree = "<group>"; };
+		BD94AD961E58F55A00AFCB99 /* IntroViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		BD94AD981E58FDBE00AFCB99 /* AddItemView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddItemView.swift; sourceTree = "<group>"; };
 		EFF7E92D1E58C60100880757 /* Support.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Support.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFF7E9301E58C60100880757 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EFF7E9321E58C60100880757 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +74,10 @@
 				EFF7E9491E58D3F600880757 /* Model */,
 				EFF7E9441E58C73000880757 /* Controllers */,
 				EFF7E9341E58C60100880757 /* Main.storyboard */,
+				BD94AD921E58F05F00AFCB99 /* Intro.storyboard */,
+				BD94AD941E58F49200AFCB99 /* IntroCollectionCell.swift */,
+				BD94AD961E58F55A00AFCB99 /* IntroViewController.swift */,
+				BD94AD981E58FDBE00AFCB99 /* AddItemView.swift */,
 				EFF7E9371E58C60100880757 /* Assets.xcassets */,
 				EFF7E9391E58C60100880757 /* LaunchScreen.storyboard */,
 				EFF7E93C1E58C60100880757 /* Info.plist */,
@@ -124,7 +136,7 @@
 				TargetAttributes = {
 					EFF7E92C1E58C60000880757 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = Y38T3TH9N8;
+						DevelopmentTeam = DSBY73HWC3;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,6 +167,7 @@
 				EFF7E93B1E58C60100880757 /* LaunchScreen.storyboard in Resources */,
 				EFF7E9381E58C60100880757 /* Assets.xcassets in Resources */,
 				EFF7E9361E58C60100880757 /* Main.storyboard in Resources */,
+				BD94AD931E58F05F00AFCB99 /* Intro.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,11 +179,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EFF7E9331E58C60100880757 /* MainViewController.swift in Sources */,
+				BD94AD991E58FDBE00AFCB99 /* AddItemView.swift in Sources */,
 				EFF7E9311E58C60100880757 /* AppDelegate.swift in Sources */,
 				EFF7E94B1E58DC3D00880757 /* UserCell.swift in Sources */,
 				EFF7E9431E58C72600880757 /* SupportNetworkViewController.swift in Sources */,
+				BD94AD951E58F49200AFCB99 /* IntroCollectionCell.swift in Sources */,
 				EFF7E9481E58D3E600880757 /* User.swift in Sources */,
 				EFF7E9461E58C83E00880757 /* PageViewController.swift in Sources */,
+				BD94AD971E58F55A00AFCB99 /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y38T3TH9N8;
+				DEVELOPMENT_TEAM = DSBY73HWC3;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samL.Support;
@@ -304,7 +320,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y38T3TH9N8;
+				DEVELOPMENT_TEAM = DSBY73HWC3;
 				INFOPLIST_FILE = Support/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.samL.Support;
@@ -332,6 +348,7 @@
 				EFF7E9411E58C60100880757 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
